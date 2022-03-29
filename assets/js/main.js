@@ -24,7 +24,7 @@ btn.addEventListener("click", function() {
     const registered_mail = ["tizio@gmail.com","caio@gmail.com","pippo@hotmail.com", "pluto@hotmail.com"];
 
     //dichiaro una variabile booleana e stabilisco un risultato
-    
+
     let bool = false;
 
 
@@ -40,8 +40,6 @@ btn.addEventListener("click", function() {
         if (user_email == registered_mail[i] ){
 
             bool = true;
-
-
         } 
 
         /* else {
