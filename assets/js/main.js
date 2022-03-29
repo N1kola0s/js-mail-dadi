@@ -53,11 +53,15 @@ btn.addEventListener("click", function() {
 
     if (bool==true){
         console.log("Ok la tua email è corretta");
+
+        document.querySelector(".verify").innerHTML = "La tua email è corretta"
     }
 
     else {
 
         console.log("La tua email non è registrata, riprova con un altra email")
+
+        document.querySelector(".verify").innerHTML = "La tua email non è corretta"
     }
 
 });
